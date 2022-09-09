@@ -51,13 +51,15 @@ h2{
     color: white;
 }
 form{
-    padding-top: 50px;
+    /* padding-top: 50px; */
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
 
 }
 label input{
-    display: grid;
 }
 .text{
-    width: 100vw;
+
 }
 
