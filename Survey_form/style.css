@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    background: linear-gradient(to right, rgb(8, 90, 90), rgb(106, 167, 167));
+}
 header{
     background-color: black;
 }
@@ -19,7 +22,7 @@ li a{
     list-style: none;
 }
 .container{
-    background-color: teal;
+    background-color: var(--main-bg-color);
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -46,13 +49,18 @@ h3{
     align-items: center;
     flex-direction: column;
 }
+.box{
+    background-color: white;
+    color: black;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 12px;
+    box-shadow: 20px 70px 32px 0 rgba(5, 5, 5, 0.37);
+    border: 2px solid rgba(24, 22, 22, 0.18);
+}
 h2{
     padding-top: 50px;
-    color: white;
 }
 form{
-    /* padding-top: 50px; */
-    display: grid;
-    grid-template-columns: 200px 1fr;
 }
 
