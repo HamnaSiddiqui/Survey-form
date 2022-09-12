@@ -38,10 +38,11 @@ li a{
     border: 1px solid black;
 }
 h3{
-
     color: white;
     margin-bottom: 30px;
 }
+
+/* about page */
 .container2{
     background-color: teal;
     height: 90vh;
@@ -66,10 +67,91 @@ h2{
     text-align: center;
     
 }
-form{
-    padding-top: 10px;
-    text-align: center;
+.submission-form{
+    margin: 1em 1em;
 }
-.text{
-    
+label{
+    display: block;
+    font-weight: 900;
 }
+input{
+    display: block;
+    width: 20em;
+    height: 4vh;
+    border-radius: 4px;
+}
+#add{
+    width: 100%;
+    background-color: rgb(67, 71, 133);
+    border-radius: 5px;
+    height: 5vh;
+    color: white;
+    font-weight: 900;
+}
+#display{
+    margin-top: 1em;
+    width: 100%;
+    background-color: rgb(67, 71, 133);
+    border-radius: 5px;
+    height: 5vh;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+/* display Page */
+.main-content{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: white;
+}
+.bar{
+    margin-top: 2em;
+    border-collapse: collapse;
+    font-size: 1em;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  h4{
+    font-size: 1.5em;
+    margin: 1em 0;
+  }
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
