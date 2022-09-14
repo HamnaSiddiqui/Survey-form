@@ -118,8 +118,8 @@ input{
     box-shadow: 20px 70px 32px 0 rgba(5, 5, 5, 0.37);
     border: 2px solid rgba(24, 22, 22, 0.18);
     display: flex;
-    /* flex-direction: column; */
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
 }
 .heading{
     margin-top: 5vh;
