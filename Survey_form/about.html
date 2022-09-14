@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testing web</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -20,24 +24,22 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div class="container">
-                <div class="box">
-                    <h2>Please Enter your credentials below</h2>
-                <form class="submission-form">
-                    <label for="fname">First name:
-                        <input type="text" id="fname" name="fname">
-                    </label><br>
-                    <label for="lname">Last name:
-                        <input type="text" id="lname" name="lname">
-                    </label><br>
-                    <label for="email">Email address:
-                        <input type="text" id="email" name="email">
-                    </label><br>
-                    <button type="submit" id="add">Add to List</button><br>
-                    <button type="display" id="display"><a href="./display.html">Display</a></button>
+        <section class="body">
+            <div class="box2">
+                <h1 class="heading">Enter your name</h1>
+                <form>
+                    <label for="txt">Name
+                        <input type="text" name="text" id="txt" required></label>
+                    <button type="submit" class="btn-list">Add</button>
                 </form>
-                </div>
+            </div>
+            <div class="container3">
+                <ul class="tbody">
+                    <li class="table">write something <span>x</span></li>
+                    <li class="table">write something <span>x</span></li>
+                    <li class="table">write something <span>x</span></li>
+                    <li class="table">write something <span>x</span></li>
+                </ul>
             </div>
         </section>
     </main>

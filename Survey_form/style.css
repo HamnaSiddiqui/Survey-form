@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Tiro Bangla', serif;
 }
 :root{
     background: linear-gradient(to right, rgb(8, 90, 90), rgb(106, 167, 167));
@@ -63,95 +64,104 @@ h3{
     align-items: center;
 }
 h2{
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
     
 }
 .submission-form{
-    margin: 1em 1em;
+    margin: 0 1em;
 }
 label{
     display: block;
     font-weight: 900;
+    color: rgb(33, 129, 129);
 }
 input{
     display: block;
     width: 20em;
     height: 4vh;
     border-radius: 4px;
+    cursor: pointer;
 }
 #add{
     width: 100%;
-    background-color: rgb(67, 71, 133);
+    background-color: rgb(33, 129, 129);
     border-radius: 5px;
     height: 5vh;
     color: white;
     font-weight: 900;
+    cursor: pointer;
 }
-#display{
+#clear{
     margin-top: 1em;
     width: 100%;
-    background-color: rgb(67, 71, 133);
+    background-color: rgb(33, 129, 129);
     border-radius: 5px;
     height: 5vh;
     font-weight: 900;
-}
-a{
-    text-decoration: none;
-    color:white;
-}
-
-/* display Page */
-.main-content{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-size: 2em;
     color: white;
+    cursor: pointer;
 }
-.bar{
-    margin-top: 2em;
-    border-collapse: collapse;
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box2{
+    background-color: white;
+    margin-top: 15vh;
+    color: black;
+    width: 50vw;
+    height: 30vh;
+    border-radius: 12px;
+    box-shadow: 20px 70px 32px 0 rgba(5, 5, 5, 0.37);
+    border: 2px solid rgba(24, 22, 22, 0.18);
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+.heading{
+    margin-top: 5vh;
+}
+form{
+    margin-top: 2vh;
+}
+.btn-list{
+    color: white;
+    background-color: rgb(21, 100, 100);
+    width: 100%;
+    height: 5vh;
+    border-radius: 6px;
+    margin-top: 2vh;
+    border: 1px solid teal;
     font-size: 1em;
 }
-.content-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    min-width: 400px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  }
-  
-  .content-table thead tr {
-    background-color: #009879;
-    color: #ffffff;
-    text-align: left;
-    font-weight: bold;
-    font-size: 1.5em;
-  }
-  h4{
-    font-size: 1.5em;
-    margin: 1em 0;
-  }
-  .content-table th,
-  .content-table td {
-    padding: 12px 15px;
-  }
-  
-  .content-table tbody tr {
-    border-bottom: 1px solid #dddddd;
-  }
-  
-  .content-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-  }
-  
-  .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
-  }
-  
-  .content-table tbody tr.active-row {
-    font-weight: bold;
-    color: #009879;
-  }
+.container3{
+    margin-top: 10vh;   
+}
+.tbody{
+    list-style: none;
+    width: 500px;
+}
+.table{
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 0 5px;
+    line-height: 40px;
+    cursor: pointer;
+    display: block;
+    margin: 5px 0;
+    position: relative;
+    box-shadow: 20px 70px 32px 0 rgba(5, 5, 5, 0.37);   
+}
+.tbody .table span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2em;
+    text-align: center;
+    background-color: rgb(221, 57, 57);
+    color: white;
+}
