@@ -1,9 +1,9 @@
 function getAndUpdate(){
     console.log("Your function is working");
-    fname = document.getElementById("name").value;
+    name = document.getElementById("name").value;
     if(localStorage.getItem("itemsJson") == null){
         itemJsonarr = [];
-        itemJsonarr.push([fname]);
+        itemJsonarr.push([name]);
         localStorage.setItem("itemsJson", JSON.stringify(itemJsonarr));
     }
     else{
@@ -11,7 +11,7 @@ function getAndUpdate(){
         itemJsonarrStr = localStorage.getItem("itemsJson");
         itemJsonarr = JSON.parse(itemJsonarrStr);
         //again adding and saving in list
-        itemJsonarr.push([fname]);
+        itemJsonarr.push([name]);
         localStorage.setItem("itemsJson", JSON.stringify(itemJsonarr));
     }
     update();
