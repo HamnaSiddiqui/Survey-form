@@ -4,7 +4,7 @@
     font-family: 'Tiro Bangla', serif;
 }
 :root{
-    background: linear-gradient(to right, rgb(8, 90, 90), rgb(106, 167, 167));
+    background: linear-gradient(to right, rgb(112, 145, 145), rgb(106, 167, 167));
 }
 header{
     background-color: black;
@@ -140,28 +140,48 @@ form{
 .container3{
     margin-top: 10vh;   
 }
-.tbody{
-    list-style: none;
-    width: 500px;
+table{
+    color: white;
 }
 .table{
-    background-color: #fff;
-    width: 100%;
-    height: 40px;
-    padding: 0 5px;
-    line-height: 40px;
-    cursor: pointer;
-    display: block;
-    margin: 5px 0;
-    position: relative;
-    box-shadow: 20px 70px 32px 0 rgba(5, 5, 5, 0.37);   
+    border-collapse: collapse;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 500px;
+    box-shadow: 0 0 20px rgba(112, 103, 103, 0.15);
 }
-.tbody .table span{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2em;
-    text-align: center;
-    background-color: rgb(221, 57, 57);
+.table thead tr {
+    background-color: rgb(21, 100, 100);
+    color: #ffffff;
+    text-align: left;
     color: white;
+}
+.table th,
+.table td {
+    padding: 12px 15px;
+    font-size: 16px;
+}
+.table tbody tr {
+    border-bottom: 1px solid #4b4545;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: rgb(21, 100, 100);
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(21, 100, 100);
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #462338;
+}
+.btn-primary{
+    color: #462338;
+    font-weight: 700;
+    height: 2em;
+    width: 4em;
+    border-radius: 7px;
+    cursor: pointer;
 }
