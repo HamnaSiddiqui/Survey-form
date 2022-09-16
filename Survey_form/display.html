@@ -13,7 +13,7 @@
     <header>
         <nav class="nav-center">
             <ul class="ul-center">
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
@@ -21,32 +21,47 @@
     </header>
     <main>
         <section>
-            <div id="tasks">
-                <h2>Your Details</h2>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th class="table-dark" scope="col">SNo.</th>
-                        <th class="table-dark" scope="col">First Name</th>
-                        <th class="table-dark" scope="col">Last Name</th>
-                        <th class="table-dark" scope="col">Email</th>
-                        <th class="table-dark" scope="col">Action</th>
-                      </tr>
-                    </thead>
-                    <tbody id="tablebody">
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Js Project completion</td>
-                        <td><button class="btn btn-primary">Delete</button></td>
-                      </tr>
-                      <tr class="active-row">
-                        <th scope="row">1</th>
-                        <td>Js Project completion</td>
-                        <td><button class="btn btn-primary">Delete</button></td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </div>
+            <div class="container2" id="sub">
+                <h1 class="main-content">Details of Responses</h1>
+                <div id="tasks" class="box">
+                    <div class="bar">
+                        <table class="content-table">
+                            <thead>
+                                <tr>
+                                    <th>SNo.</th>
+                                    <th>First Name</th>
+                                    <th>Last Points</th>
+                                    <th>Email</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tablebody">
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>john</td>
+                                    <td>albert</td>
+                                    <td>.com</td>
+                                    <td><button class="btn btn-primary">Delete</button></td>
+                                </tr>
+                                <tr class="active-row">
+                                    <th scope="row">1</th>
+                                    <td>john</td>
+                                    <td>albert</td>
+                                    <td>.com</td>
+                                    <td><button class="btn btn-primary">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>john</td>
+                                    <td>albert</td>
+                                    <td>.com</td>
+                                    <td><button class="btn btn-primary">Delete</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <script src="app.js"></script>
