@@ -31,15 +31,49 @@ li a{
     align-items: center;
 }
 #btn{
-    width: 15vw;
-    height: 6vh;
-    font-size: 2vw;
-    font-weight: 800;
-    border-radius: 9px;
-    border: 1px solid black;
+    width: 15em;
+    background-color: rgb(33, 129, 129);
+    border-radius: 5px;
+    height: 5vh;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(69, 136, 136);
+}
+.box1{
+    background-color: white;
+    color: black;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 12px;
+    box-shadow: 20px 70px 32px 0 rgba(5, 5, 5, 0.37);
+    border: 2px solid rgba(24, 22, 22, 0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    height: 12em;
+    margin-top: 2em;
+    width: 19em;
+    border-radius: 20px;
+    background-color: #462338;
+    overflow: hidden;
+}
+img{
+    height: 12em;
+    width: 19em;
+    transition: 2s;
+    border-radius: 20px;
+}
+img:hover{
+    cursor: zoom-in;
+    transform: scale(1.4);
 }
 h3{
-    color: white;
+    /* margin-top: 7em; */
+    color: black;
     margin-bottom: 30px;
 }
 
@@ -52,10 +86,11 @@ h3{
     flex-direction: column;
 }
 .box{
+    margin: 0;
     background-color: white;
     color: black;
     width: 60vw;
-    height: 60vh;
+    height: 100vh;
     border-radius: 12px;
     box-shadow: 20px 70px 32px 0 rgba(5, 5, 5, 0.37);
     border: 2px solid rgba(24, 22, 22, 0.18);
@@ -69,7 +104,7 @@ h2{
     
 }
 .submission-form{
-    margin: 0 1em;
+    margin: 10em;
 }
 label{
     display: block;
@@ -85,6 +120,7 @@ input{
 }
 #add{
     width: 100%;
+    margin-top: 1em;
     background-color: rgb(33, 129, 129);
     border-radius: 5px;
     height: 5vh;
@@ -92,7 +128,7 @@ input{
     font-weight: 900;
     cursor: pointer;
 }
-#clear{
+#display{
     margin-top: 1em;
     width: 100%;
     background-color: rgb(33, 129, 129);
@@ -110,10 +146,10 @@ input{
 }
 .box2{
     background-color: white;
-    margin-top: 15vh;
+    margin-top: 9vh;
     color: black;
     width: 50vw;
-    height: 30vh;
+    height: 52vh;
     border-radius: 12px;
     box-shadow: 20px 70px 32px 0 rgba(5, 5, 5, 0.37);
     border: 2px solid rgba(24, 22, 22, 0.18);
@@ -175,7 +211,6 @@ table{
 }
 .styled-table tbody tr.active-row {
     font-weight: bold;
-    color: #462338;
 }
 .btn-primary{
     color: #462338;
@@ -184,4 +219,7 @@ table{
     width: 4em;
     border-radius: 7px;
     cursor: pointer;
+}
+h2{
+    color: #ffffff;
 }

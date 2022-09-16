@@ -50,4 +50,6 @@ function deleted(itemindex){
     itemJsonarr.splice(itemindex, 1);
     localStorage.setItem("itemsJson", JSON.stringify(itemJsonarr));
     update();
-}
+};
+let npage = document.getElementById("display");
+npage = "./display.html"
