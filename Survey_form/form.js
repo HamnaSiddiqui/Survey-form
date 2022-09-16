@@ -1,9 +1,11 @@
 function getAndUpdate(){
     console.log("Your function is working");
-    name = document.getElementById("name").value;
+    fname = document.getElementById("fname").value;
+    lname = document.getElementById("lname").value;
+    email = document.getElementById("email").value;
     if(localStorage.getItem("itemsJson") == null){
         itemJsonarr = [];
-        itemJsonarr.push([name]);
+        itemJsonarr.push([fname, lname, email]);
         localStorage.setItem("itemsJson", JSON.stringify(itemJsonarr));
     }
     else{
@@ -11,7 +13,7 @@ function getAndUpdate(){
         itemJsonarrStr = localStorage.getItem("itemsJson");
         itemJsonarr = JSON.parse(itemJsonarrStr);
         //again adding and saving in list
-        itemJsonarr.push([name]);
+        itemJsonarr.push([fname, lname, email]);
         localStorage.setItem("itemsJson", JSON.stringify(itemJsonarr));
     }
     update();
@@ -34,6 +36,8 @@ function update(){
         <tr>
         <th scope="row">${index+1}</th>
         <td>${element[0]}</td>
+        <td>${element[1]}</td>
+        <td>${element[2]}</td>
         <td><button class="btn btn-primary" onclick = "deleted(${index})">Delete</button></td>
         </tr>`;
     });
@@ -51,5 +55,3 @@ function deleted(itemindex){
     localStorage.setItem("itemsJson", JSON.stringify(itemJsonarr));
     update();
 };
-let npage = document.getElementById("display");
-npage = "./display.html"
