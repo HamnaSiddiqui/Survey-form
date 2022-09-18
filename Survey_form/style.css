@@ -127,7 +127,7 @@ input{
     color: white;
     font-weight: 900;
     cursor: pointer;
-/* }
+}
 #display{
     margin-top: 1em;
     width: 100%;
@@ -142,7 +142,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; */
+    flex-direction: column;
 }
 .box2{
     background-color: white;
