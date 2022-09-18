@@ -129,14 +129,14 @@ input{
     cursor: pointer;
 }
 #display{
-    /* margin-top: 1em;
+    margin-top: 1em;
     width: 100%;
     background-color: rgb(33, 129, 129);
     border-radius: 5px;
     height: 5vh;
     font-weight: 900;
     color: white;
-    cursor: pointer; */
+    cursor: pointer;
 }
 .body{
     display: flex;
