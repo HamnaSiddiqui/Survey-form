@@ -212,7 +212,7 @@ table{
 .styled-table tbody tr.active-row {
     font-weight: bold;
 }
-.btn-primary{
+/* .btn-primary{
     color: #462338;
     font-weight: 700;
     height: 2em;
@@ -222,4 +222,4 @@ table{
 }
 h2{
     color: #ffffff;
-}
+} */
